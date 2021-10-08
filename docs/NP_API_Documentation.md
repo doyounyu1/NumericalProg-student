@@ -7,7 +7,38 @@ description: Numerical Method example
 
 `#include "myNM.h"`
 
-## Non-Linear Solver
+
+
+# Differentiation
+
+
+
+## gradient1D()
+
+Returns the dy/dx results for the input data of y(x) with truncation error of O(h^2)
+
+```c
+void gradient1D(double x[], double y[], double dydx[], int m);
+
+```
+
+
+
+**Parameters**
+
+* **x[]:** input data x with dimension m
+* **y[]** input data y(x) with dimention m
+
+
+
+**Example Code**
+
+```
+```
+
+
+
+
 
 ### newtonRaphson\(\)
 
